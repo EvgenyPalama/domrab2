@@ -1,6 +1,6 @@
 public class Main {
 
-    public stagit inittic void main(String[] args) {
+    public static void main(String[] args) {
         BMIService service = new BMIService();
         int weight = 198; //масса в кг
         int height = 200; //рост в см
