@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void main(String[] args) {
+    public stagit inittic void main(String[] args) {
         BMIService service = new BMIService();
         int weight = 198; //масса в кг
         int height = 200; //рост в см
@@ -22,25 +22,25 @@ public class Main {
         bodyMassIndex = service.calculate(80, 251);
         System.out.println(bodyMassIndex);
 
-        bodyMassIndex = service.calculate( 50, 190);
+        bodyMassIndex = service.calculate(50, 190);
         System.out.println(bodyMassIndex);
 
-        bodyMassIndex = service.calculate( 60, 190);
+        bodyMassIndex = service.calculate(60, 190);
         System.out.println(bodyMassIndex);
 
-        bodyMassIndex = service.calculate( 70, 190);
+        bodyMassIndex = service.calculate(70, 190);
         System.out.println(bodyMassIndex);
 
-        bodyMassIndex = service.calculate( 100, 190);
+        bodyMassIndex = service.calculate(100, 190);
         System.out.println(bodyMassIndex);
 
-        bodyMassIndex = service.calculate( 120, 190);
+        bodyMassIndex = service.calculate(120, 190);
         System.out.println(bodyMassIndex);
 
-        bodyMassIndex = service.calculate( 140, 190);
+        bodyMassIndex = service.calculate(140, 190);
         System.out.println(bodyMassIndex);
 
-        bodyMassIndex = service.calculate( 160, 190);
+        bodyMassIndex = service.calculate(160, 190);
         System.out.println(bodyMassIndex);
     }
 }
